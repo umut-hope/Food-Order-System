@@ -1,5 +1,7 @@
 # Online Food Delivery & Order Management System
 
+![Order management window with the menu and orders for three tables](docs/screenshot.webp)
+
 A Java-based desktop application tailored for single-location restaurants to streamline menu navigation and expedite table order management.
 
 ---
