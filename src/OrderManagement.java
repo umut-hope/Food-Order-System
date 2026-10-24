@@ -483,7 +483,7 @@ public class OrderManagement extends JFrame implements ItemListener {
         				table_4.append(" Main Course: ");
         				b++;
         			}
-        			else if(b<6) {
+        			if(b<6) {
         			orders.enqueue((String)lcombo.getSelectedItem());
         			table_4.append((String)lcombo.getSelectedItem() + " - " );
         			orders.dequeue();
@@ -501,7 +501,7 @@ public class OrderManagement extends JFrame implements ItemListener {
         				table_4.append(" Desserts: ");
         				n++;
         			}
-        			else if(n<6) {
+        			if(n<6) {
         			orders.enqueue((String)lcombo.getSelectedItem());
         			table_4.append((String)lcombo.getSelectedItem() + " - " );
         			orders.dequeue();
@@ -519,7 +519,7 @@ public class OrderManagement extends JFrame implements ItemListener {
         				table_4.append(" Beverages: ");
         				u++;
         			}
-        			else if(u<6) {
+        			if(u<6) {
         			orders.enqueue((String)lcombo.getSelectedItem());
         			table_4.append((String)lcombo.getSelectedItem() + " - " );
         			orders.dequeue();
@@ -539,7 +539,7 @@ public class OrderManagement extends JFrame implements ItemListener {
         				table_5.append(" Appetizers: ");
         				f++;
         			}
-        			else if(f<6) {
+        			if(f<6) {
         			orders.enqueue((String)lcombo.getSelectedItem());
         			table_5.append((String)lcombo.getSelectedItem() + " - " );
         			orders.dequeue();
@@ -557,7 +557,7 @@ public class OrderManagement extends JFrame implements ItemListener {
         				table_5.append(" Main Course: ");
         				i++;
         			}
-        			else if(i<6) {
+        			if(i<6) {
         			orders.enqueue((String)lcombo.getSelectedItem());
         			table_5.append((String)lcombo.getSelectedItem() + " - " );
         			orders.dequeue();
@@ -575,7 +575,7 @@ public class OrderManagement extends JFrame implements ItemListener {
         				table_5.append(" Desserts: ");
         				h++;
         			}
-        			else if(h<6) {
+        			if(h<6) {
         			orders.enqueue((String)lcombo.getSelectedItem());
         			table_5.append((String)lcombo.getSelectedItem() + " - " );
         			orders.dequeue();
@@ -593,7 +593,7 @@ public class OrderManagement extends JFrame implements ItemListener {
         				table_5.append(" Beverages: ");
         				s++;
         			}
-        			else if(s<6) {
+        			if(s<6) {
         			orders.enqueue((String)lcombo.getSelectedItem());
         			table_5.append((String)lcombo.getSelectedItem() + " - " );
         			orders.dequeue();
