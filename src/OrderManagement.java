@@ -612,14 +612,14 @@ public class OrderManagement extends JFrame implements ItemListener {
 	
 		//Combo Method Item State Recorder
     	public void itemStateChanged(ItemEvent e) {
-    		String b[] = { "Caesar Salad", "Garlic Bread","Buffalo Wings",
+    		String b[] = { "Caesar Salad", "Garlic Bread", "Sweet Potato Nacho Fries", "Buffalo Wings",
         				"Breadsticks", "Onion Rings", "Nachos","Soup Dumplings" };
         
     		String c[] = { "Cheeseburger", "Grilled Pizza","Chicken Alfredo", "Fajita","Risotto", 
-        		"Beef Stew", "Roast Chicken", "Margherita Pizza" };
+        		"Beef Stew", "Sweet Chili Chicken", "Margherita Pizza" };
         
     		String d[] = { "Chocolate Cake" , "Apple Pie", "Cheesecake", "Peach Pie", "Fruit Salad", 
-        		"Cheesecake", "Red Velvet"};
+        		"Red Velvet"};
     		String f[] = { "Coca Cola" , "Sprite", "Fanta", "Apple Juice", "Lemonade", 
                     "Beer", "Wine"};
     		

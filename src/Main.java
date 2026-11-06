@@ -36,7 +36,6 @@ public class Main {
         menu.addItem("Desserts", new MenuItem("Cheesecake", 12.99));
         menu.addItem("Desserts", new MenuItem("Peach Pie", 10.99));
         menu.addItem("Desserts", new MenuItem("Fruit Salad", 7.99));
-        menu.addItem("Desserts", new MenuItem("Cheesecake", 6.99));
         menu.addItem("Desserts", new MenuItem("Red Velvet", 8.99));
         
         
